@@ -1,7 +1,7 @@
 # Bitcoin Mining-Based Demand Response Simulations
 
 <p align="center">
-  <img width="300" src="">
+  <img width="300" src="BMMDR.jpg">
 </p>
 
 ## Overview
