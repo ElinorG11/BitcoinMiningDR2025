@@ -10,7 +10,6 @@ The simulations utilize:
 - **Grid operation data** from the [Noga grid operator](https://www.noga-iso.co.il/systemoperationunit/demand-curve/).
 - **Renewable energy and pricing data** from [California ISO](https://www.eia.gov/todayinenergy/detail.php?id=56880) (1970-2022).
 - **Bitcoin mining machine specifications** from industry reports ([CoinDesk](https://www.coindesk.com/)).
-- **A cost-benefit analysis** comparing mining-based DR to conventional approaches.
 
 ## Simulation Details
 The study models:
@@ -20,14 +19,14 @@ The study models:
 
 ## How to Use the Repository
 - **No executable scripts** are included. The simulations are **manual**.
-- Data files contain **processed results** from the study.
-- Mathematical models and sensitivity analysis are **documented in the supplementary materials**.
+- Data files contain **raw results** taken from the sources mentioned above.
+- Mathematical models and sensitivity analysis are **documented in the research paper**.
 - Users can adapt the provided data for further analysis or implementation.
 
 ## Key Findings
 - **Bitcoin mining can reduce ramping costs** but is highly sensitive to electricity prices and machine costs.
 - There is a **trade-off between rising electricity costs due to renewables and increased ramping costs**.
-- The **economic feasibility** depends on mining hardware prices staying below a profitability threshold.
+- The **economic feasibility** is influenced by mining hardware prices staying below a profitability threshold.
 
 ## References
 For full details on the data, refer to:
