@@ -1,5 +1,9 @@
 # Bitcoin Mining-Based Demand Response Simulations
 
+<p align="center">
+  <img width="300" src="">
+</p>
+
 ## Overview
 This repository contains data and analysis from simulations evaluating Bitcoin mining machines (BMMs) as demand-response (DR) assets for mitigating transient effects. The study examines their impact on **ramping costs, electricity prices, and renewable energy integration**, using real-world grid data. 
 
