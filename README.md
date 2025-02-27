@@ -1,48 +1,41 @@
 # Bitcoin Mining-Based Demand Response Simulations
-This repository contains simulation data and analysis for Bitcoin mining machines as demand-response assets in power systems for mitigating transient effects.
 
-\section{Overview}
-This repository contains data and analysis from simulations that assess the viability of Bitcoin mining machines (BMMs) as demand-response (DR) assets. The simulations examine their effect on ramping costs, electricity prices, and profitability, considering real-world grid conditions. 
+## Overview
+This repository contains data and analysis from simulations evaluating Bitcoin mining machines (BMMs) as demand-response (DR) assets for mitigating transient effects. The study examines their impact on **ramping costs, electricity prices, and renewable energy integration**, using real-world grid data. 
 
-The repository is based on the analysis presented in Section V of our study, which explores the impact of varying renewable energy penetration on grid economics and transient stability. The core optimization framework utilizes Pontryagin’s Minimum Principle to derive optimal mining schedules.
+The analysis is based on **Pontryagin’s Minimum Principle** to derive optimal mining schedules under different grid conditions. These simulations provide insights into the **economic viability and technical feasibility** of Bitcoin mining as a grid-balancing mechanism.
 
-\section{Data and Assumptions}
-The simulations rely on:
-\begin{itemize}
-    \item Real-world grid operation data from the \href{https://www.noga-iso.co.il/systemoperationunit/demand-curve/}{Noga grid operator}.
-    \item Renewable energy and pricing data from California ISO (1970-2022).
-    \item Bitcoin mining machine specifications sourced from industry reports.
-    \item A cost-benefit analysis comparing mining-based DR to conventional approaches.
-\end{itemize}
+## Data and Assumptions
+The simulations utilize:
+- **Grid operation data** from the [Noga grid operator](https://www.noga-iso.co.il/systemoperationunit/demand-curve/).
+- **Renewable energy and pricing data** from [California ISO](https://www.eia.gov/todayinenergy/detail.php?id=56880) (1970-2022).
+- **Bitcoin mining machine specifications** from industry reports ([CoinDesk](https://www.coindesk.com/)).
+- **A cost-benefit analysis** comparing mining-based DR to conventional approaches.
 
-\section{Simulation Details}
-The simulation examines:
-\begin{itemize}
-    \item The effect of renewable energy share on electricity prices and ramping costs.
-    \item The influence of mining machine parameters (price, power consumption, hashrate) on profitability.
-    \item The feasibility of using BMMs as an alternative to curtailment or energy storage.
-\end{itemize}
+## Simulation Details
+The study models:
+- The effect of **renewable energy penetration** on electricity prices and ramping costs.
+- The influence of **Bitcoin mining machine parameters** (price, power consumption, hashrate) on profitability.
+- The feasibility of using **BMMs as an alternative to curtailment or energy storage**.
 
-\section{How to Use the Repository}
-\begin{itemize}
-    \item This repository **does not** contain executable scripts. All operations are **manual**.
-    \item The provided data files contain processed results from the study.
-    \item Mathematical models and sensitivity analysis are documented in the supplementary materials.
-    \item Users can adapt the provided data for further analysis or implementation.
-\end{itemize}
+## How to Use the Repository
+- **No executable scripts** are included. The simulations are **manual**.
+- Data files contain **processed results** from the study.
+- Mathematical models and sensitivity analysis are **documented in the supplementary materials**.
+- Users can adapt the provided data for further analysis or implementation.
 
-\section{Key Findings}
-\begin{itemize}
-    \item Bitcoin mining can mitigate ramping costs but is highly sensitive to electricity prices and machine costs.
-    \item There is a trade-off between rising electricity costs due to renewables and increased ramping costs.
-    \item The economic feasibility depends on machine prices staying below a threshold determined by revenue predictions.
-\end{itemize}
+## Key Findings
+- **Bitcoin mining can reduce ramping costs** but is highly sensitive to electricity prices and machine costs.
+- There is a **trade-off between rising electricity costs due to renewables and increased ramping costs**.
+- The **economic feasibility** depends on mining hardware prices staying below a profitability threshold.
 
-\section{References}
-For full details on the study, refer to our published paper or related research at:
-\begin{itemize}
-    \item \href{https://www.eia.gov/todayinenergy/detail.php?id=56880}{California ISO Energy Data}
-    \item \href{https://www.noga-iso.co.il/systemoperationunit/demand-curve/}{Noga Grid Operator Data}
-    \item \href{https://www.coindesk.com/}{Bitcoin Mining Industry Reports}
-\end{itemize}
+## References
+For full details on the data, refer to:
+- [California ISO Energy Data](https://www.eia.gov/todayinenergy/detail.php?id=56880)
+- [Noga Grid Operator Data](https://www.noga-iso.co.il/systemoperationunit/demand-curve/)
+- [Bitcoin Mining Industry Reports](https://www.coindesk.com/)
+
+---
+
+📌 **Note:** This repository provides **data and analysis only**; it does not include simulation scripts. The study's findings can be used for further research on **demand-response strategies, power system economics, and energy market optimization**.
 
